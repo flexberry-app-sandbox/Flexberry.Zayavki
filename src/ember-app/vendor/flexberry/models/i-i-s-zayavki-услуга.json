@@ -1,0 +1,63 @@
+﻿{
+  "name": "IISZayavkiУслуга",
+  "modelName": "i-i-s-zayavki-услуга",
+  "className": "Услуга",
+  "nameSpace": "IIS.Zayavki",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "название",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "стоимость",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заявка",
+      "relatedTo": "i-i-s-zayavki-заявка",
+      "inverse": "услуга"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УслугаE",
+      "modelName": "i-i-s-zayavki-услуга",
+      "attrs": [
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

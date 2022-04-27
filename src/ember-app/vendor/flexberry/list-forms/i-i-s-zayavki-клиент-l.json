@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-zayavki-клиент-e",
+  "editForm": "i-i-s-zayavki-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISZayavkiКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-zayavki-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

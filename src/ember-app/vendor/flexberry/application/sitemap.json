@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Zayavki",
+  "applicationTitle": "Zayavki",
+  "items": [
+    {
+      "link": null,
+      "menuName": "обработка-заявок",
+      "caption": "Обработка заявок",
+      "title": "Обработка заявок",
+      "children": [
+        {
+          "link": "i-i-s-zayavki-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-zayavki-заявка-l",
+          "menuName": null,
+          "caption": "Заявка",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

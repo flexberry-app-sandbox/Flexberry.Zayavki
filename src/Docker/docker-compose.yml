@@ -1,0 +1,16 @@
+﻿version: '3'
+
+services:
+  app:
+    image: zayavki/app
+    links:
+      - app-postgres-db:app-postgres-db
+    ports:
+      - 80:80
+
+  app-postgres-db:
+    image: zayavki/postgre-sql
+    volumes:
+      - DB:/var/lib/pgsql/data/
+volumes:
+  DB:
