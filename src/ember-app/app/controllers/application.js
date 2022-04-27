@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-zayavki-клиент-l',
             caption: i18n.t('forms.application.sitemap.обработка-заявок.i-i-s-zayavki-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.обработка-заявок.i-i-s-zayavki-клиент-l.title'),
-            icon: 'briefcase',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-zayavki-заявка-l',
             caption: i18n.t('forms.application.sitemap.обработка-заявок.i-i-s-zayavki-заявка-l.caption'),
             title: i18n.t('forms.application.sitemap.обработка-заявок.i-i-s-zayavki-заявка-l.title'),
-            icon: 'suitcase',
+            icon: 'folder',
             children: null
           }]
         }
