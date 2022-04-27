@@ -19,7 +19,7 @@ $.extend(true, translations, {
     'i-i-s-zayavki-услуга': IISZayavkiУслугаModel
   },
 
-  'application-name': 'Zayavki',
+  'application-name': 'Заявки',
 
   forms: {
     loading: {
@@ -58,7 +58,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Zayavki',
+        'application-name': 'Заявки',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -69,7 +69,7 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Zayavki',
+          caption: 'Заявки',
           title: 'Zayavki'
         },
         'application-version': {

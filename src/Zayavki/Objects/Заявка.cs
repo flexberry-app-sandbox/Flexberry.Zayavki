@@ -38,7 +38,7 @@ namespace IIS.Zayavki
     [MasterViewDefineAttribute("ЗаявкаE", "Клиент", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Имя")]
     [View("ЗаявкаL", new string[] {
             "Дата as \'Дата\'",
-            "Клиент.Имя as \'Имя\'"})]
+            "Клиент.Имя as \'Клиент\'"})]
     public class Заявка : ICSSoft.STORMNET.DataObject
     {
         

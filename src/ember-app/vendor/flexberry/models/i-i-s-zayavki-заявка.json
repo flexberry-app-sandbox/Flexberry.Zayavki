@@ -98,14 +98,14 @@
           "attrs": [
             {
               "name": "имя",
-              "caption": "Имя",
+              "caption": "Клиент",
               "hidden": false,
               "index": 1
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Имя",
+          "caption": "Клиент",
           "name": "клиент",
           "relatedTo": "i-i-s-zayavki-клиент",
           "inverse": null

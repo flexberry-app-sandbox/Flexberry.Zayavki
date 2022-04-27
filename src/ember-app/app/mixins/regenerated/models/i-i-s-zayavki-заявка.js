@@ -48,8 +48,8 @@ export let defineProjections = function (modelClass) {
 
   modelClass.defineProjection('ЗаявкаL', 'i-i-s-zayavki-заявка', {
     дата: attr('Дата', { index: 0 }),
-    клиент: belongsTo('i-i-s-zayavki-клиент', 'Имя', {
-      имя: attr('Имя', { index: 1 })
+    клиент: belongsTo('i-i-s-zayavki-клиент', 'Клиент', {
+      имя: attr('Клиент', { index: 1 })
     }, { index: -1, hidden: true })
   });
 };
